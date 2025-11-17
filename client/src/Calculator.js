@@ -6,7 +6,7 @@ const Calculator = () => {
   const [result, setResult] = useState('');
   const [isCalculated, setIsCalculated] = useState(false);
 
-  const API_URL = 'http://localhost:5001/api/calculate';
+  const API_URL = 'https://e2aap70m1h.execute-api.us-east-2.amazonaws.com/Test';
 
   const handleNumber = (num) => {
     if (isCalculated) {
